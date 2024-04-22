@@ -90,32 +90,53 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 ### AWS Glue
 <Part1>
 1. Click on the orange button for Visual ETL.
-2. Click on "Sources" and select "Amazon S3."
-3. Click on "Targets" and select "Amazon S3."
+  
+2. Click on "Sources" and select "Amazon S3.
+   
+3. Click on "Targets" and select "Amazon S3.
+   
 4. Then, two boxes will be connected.
+   
 5. Click on the box above, then press "Browse," and choose the CSV file.
-6. Click on "Infer schema."
+   
+6. Click on "Infer schema".
+   
 7. The CSV file should be in the box above.
+    
 8. In the box below (destination schema), set the desired data format.
-9. Click on "Job details," change the Name to "reddit_glue_job."
+    
+9. Click on "Job details," change the Name to "reddit_glue_job.
+    
 10. Click on "Advanced properties" to ensure it's set to "reddit_glue_job.py."
+    
 11. Click on "Script," press "-edit," confirm, and then add the code between AmazonS3_node and Amazon S3_node.
+    
 12. Click on "Save," then press "Run." Next, click on the "Runs" section.
+    
 13. Once you see the result marked as "Succeeded," go to the S3 bucket and check if it's in the "Transformed_" folder. Confirm that it's done properly.
 
 <Part2>
 1. Click on AWS Crawler and create a new one named "reddit_crawler". 
-2. Next, click on "Add a data source" -> browse S3 -> Choose the Run file within the Transformed folder. 
+  
+2. Next, click on "Add a data source" -> browse S3 -> Choose the Run file within the Transformed folder.
+   
 3. Click "Create new IAM role" and select AWSGlueServiceRole-reddit-glue-role.
+ 
 4. Click on "Add database" -> reddit_db -> then click "Refresh" and select reddit_db.
+ 
 5. Click on "Run crawler". It will take approximately 2 minutes. Wait until it shows "completed".
+   
 6. After that, go to AWS Glue -> Databases -> reddit_db -> Check the table data.
+ 
 7. Athena screen will open. From there, go to Amazon Athena -> Query editor -> Manage Settings -> Browse S3 -> Add another folder named "athena_scripts" to the S3 Bucket -> Then choose and save.
 
 ### AWS Redshift
 1. Create Workgroup: reddit-workgroup.
+   
 2. Associated IAM Roles - Click "Manage IAM roles" -> Choose S3.
+  
 3. Once this is completed, click on "Query data" in the top right corner.
+   
 4. You can view the CSV and Parquet files in AWS Redshift in a table format.
 
 ## Data Preparation and Setup
