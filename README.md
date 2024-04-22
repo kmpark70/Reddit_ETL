@@ -37,7 +37,7 @@ https://www.geeksforgeeks.org/how-to-get-client_id-and-client_secret-for-python-
 ## System Setup
 1. Clone the repository.
 ```bash
-
+https://github.com/kmpark70/Reddit_Project.git
 ```
 2. Create a virtual environment.
 ```bash
