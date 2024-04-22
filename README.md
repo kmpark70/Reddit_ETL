@@ -45,12 +45,12 @@ python-3 -m venv venv
 ```
 
 3. Activate the virtual environment.
-On windows:
 ```bash
+On windows:
 myenv\Scripts\activate
 ```
-On MacOS/Linux:
 ```bash
+On MacOS/Linux:
 source venv/bin/activate
 ```
 4. Install the dependencies.
