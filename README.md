@@ -43,7 +43,6 @@ https://github.com/kmpark70/Reddit_Project.git
 ```bash
 python-3 -m venv venv
 ```
-
 3. Activate the virtual environment.
 ```bash
 On windows:
@@ -58,8 +57,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 5. Create a folder named config.conf and place the config.conf file inside that folder.
-If Broken.DAG issue occurs
-
+- If Broken.DAG issue occurs
+```bash
+.../config/config.conf.example
+```
 6. Starting the containers
 ```bash
 docker-compose up -d --build
