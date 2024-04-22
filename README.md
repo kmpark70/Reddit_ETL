@@ -8,6 +8,7 @@ This project provides a comprehensive data pipeline solution to ETL Reddit data 
 - Docker Installation
 - Python 3.9, It might not work if the version is lower or higher.
 - Apache Airflow Fernet Key (specific secret key)
+- PostGreSQL
 
 ## How to get Apache Airflow Fernet Key
 Open the Python and print the below code.
@@ -69,3 +70,20 @@ docker-compose up -d --build
 ```bash
 open http://localhost:8080
 ```
+
+##Data Preparation and Setup
+1. Specify the database system(s) and version(s) used, along with installation instructions (a link to official documentation will be enough).
+- PostGreSQL, makesure the portnumber: 5432
+- AWS S3, Redshift, referenced by https://pypi.org/project/s3fs/
+2. Describe how to acquire project data. Include a small dataset sample (< 5 MB) or provide scripts to download/scrape/process the data.
+3. How do we load this data into the database system?
+- When you open the data folder, you'll find input and output as sub-folders. The input folder contains the raw log files, while the output folder contains the result of the ETL process, which is a CSV file.
+- You can download those files.
+4. Do you have some scripts to do that? If so, how do we execute them?
+- Please follow the installation guide above.
+5. Did you use some tools for loading? If so, provide appropriate details and links.
+- We don't use any tools for loading, but when it comes to parquet file in AWS, you can download in AWS ecosystem.
+If you are benchmarking different database systems, detail any configuration modifications made.
+- You have to follow the port number and PostgreSQL due to our initial configuration.
+If generating your own data, include a sample of the synthetic dataset/database.
+- We don't use any our own data, The data is from the Real-time Reddit API.
