@@ -71,7 +71,7 @@ docker-compose up -d --build
 open http://localhost:8080
 ```
 
-##Data Preparation and Setup
+## Data Preparation and Setup
 1. Specify the database system(s) and version(s) used, along with installation instructions (a link to official documentation will be enough).
 - PostGreSQL, makesure the portnumber: 5432
 - AWS S3, Redshift, referenced by https://pypi.org/project/s3fs/
