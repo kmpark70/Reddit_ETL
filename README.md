@@ -70,6 +70,7 @@ docker-compose up -d --build
 ```bash
 open http://localhost:8080
 ```
+
 ## AWS ETL Guidelines
 ### AWS S3
 1. If you prefer to use terminal then install the lines below.
@@ -144,9 +145,8 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 1. Specify the database system(s) and version(s) used, along with installation instructions (a link to official documentation will be enough).
 - PostGreSQL, makesure the portnumber: 5432
 - AWS S3, Redshift, referenced by https://pypi.org/project/s3fs/
-2. Describe how to acquire project data. Include a small dataset sample (< 5 MB) or provide scripts to download/scrape/process the data.
-3. How do we load this data into the database system?
-- When you open the data folder, you'll find input and output as sub-folders. The input folder contains the raw log files, while the output folder contains the result of the ETL process, which is a CSV file.
+2, 3. Describe how to acquire project data. Include a small dataset sample (< 5 MB) or provide scripts to download/scrape/process the data. How do we load this data into the database system?
+- When you open the data folder, you'll find input and output as sub-folders. After running the first ETL, the input folder contains the raw log files, while the output folder contains the result of the ETL process, which is a CSV file.
 - You can download those files.
 4. Do you have some scripts to do that? If so, how do we execute them?
 - Please follow the installation guide above.
