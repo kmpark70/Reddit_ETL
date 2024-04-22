@@ -56,7 +56,7 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-5. Create a folder named config.conf and place the config.conf file inside that folder.
+5. Create a folder named config and place the config.conf.example file inside that folder.
 - If Broken.DAG issue occurs
 ```bash
 .../config/config.conf.example
