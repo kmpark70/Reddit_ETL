@@ -88,7 +88,7 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 6. Using AWS Glue, direct the transformed files to this location as the final destination.
 
 ### AWS Glue
-<Part1>
+#### Part1
   
 1. Click on the orange button for Visual ETL.
   
@@ -116,7 +116,7 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
     
 13. Once you see the result marked as "Succeeded," go to the S3 bucket and check if it's in the "Transformed_" folder. Confirm that it's done properly.
 
-<Part2>
+#### Part2
 1. Click on AWS Crawler and create a new one named "reddit_crawler". 
   
 2. Next, click on "Add a data source" -> browse S3 -> Choose the Run file within the Transformed folder.
