@@ -89,6 +89,7 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 ### AWS Glue
 <Part1>
+  
 1. Click on the orange button for Visual ETL.
   
 2. Click on "Sources" and select "Amazon S3.
