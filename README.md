@@ -11,8 +11,8 @@ This project provides a comprehensive data pipeline solution to ETL Reddit data 
 
 ## How to get Apache Airflow Fernet Key
 Open the Python and print the below code.
-Referecned by https://cryptography.io/en/latest/fernet/
-Once you run this code, you will get the fernet key and keep it in secured place!
+- Referecned by https://cryptography.io/en/latest/fernet/
+- Once you run this code, you will get the fernet key and keep it in secured place!
 ```bash
 from cryptography.fernet import Fernet
 
