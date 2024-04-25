@@ -1,0 +1,17 @@
+id,title,score,num_comments,author,created_utc,url,over_18,edited,spoiler,stickied
+1c481ne,Is SQLMesh the dbt Core 2.0? A foot in the door.,41,15,kayrnt,2024-04-14 23:53:54,https://www.reddit.com/r/dataengineering/comments/1c481ne/is_sqlmesh_the_dbt_core_20_a_foot_in_the_door/,False,False,False,False
+1c4o0y3,How to build a better RAG pipeline,27,0,isthatashark,2024-04-15 14:45:58,https://vectorize.io/how-to-build-a-rag-pipeline/,False,False,False,False
+1c4j9xx,DE Projects for CV ,25,4,Yuri484,2024-04-15 10:56:14,https://www.reddit.com/r/dataengineering/comments/1c4j9xx/de_projects_for_cv/,False,False,False,False
+1c4nmm1,Building a weather data warehouse part I: Loading a trillion rows of weather data into TimescaleDB,21,11,DeadDolphinResearch,2024-04-15 14:29:06,https://aliramadhan.me/2024/03/31/trillion-rows.html,False,False,False,False
+1c4i1eb,"DE consultants, do your clients care if you worked for at a top tech company?",20,14,rudboi12,2024-04-15 09:34:55,https://www.reddit.com/r/dataengineering/comments/1c4i1eb/de_consultants_do_your_clients_care_if_you_worked/,False,False,False,False
+1c4r01e,C’mon,13,4,ahDuck19,2024-04-15 16:47:31,https://i.redd.it/fgmfdic5aouc1.jpeg,False,False,False,False
+1c4g2bm,Seeking recommendations - An open source ETL/ELT tool for data syncing.,7,2,InitiativeFew8150,2024-04-15 07:17:06,https://www.reddit.com/r/dataengineering/comments/1c4g2bm/seeking_recommendations_an_open_source_etlelt/,False,False,False,False
+1c4frlj,Snowflake X-Small machines got slower?,8,3,chenvili,2024-04-15 06:57:06,https://www.reddit.com/r/dataengineering/comments/1c4frlj/snowflake_xsmall_machines_got_slower/,False,False,False,False
+1c4ckt9,Help with processing Kafka events from s3 to Redshift,7,5,Working_Jellyfish_85,2024-04-15 03:41:21,https://www.reddit.com/r/dataengineering/comments/1c4ckt9/help_with_processing_kafka_events_from_s3_to/,False,False,False,False
+1c4ogks,Navigating Data Integration Systems: Essential Tips for Developers,3,0,API2Cart,2024-04-15 15:03:48,https://api2cart.com/ecommerce/data-integration-systems/?utm_source=reddit&utm_medium=referral&utm_campaign=dataintegrationsystemsn.kov,False,False,False,False
+1c4tyb0,Deciding on a workflow/stack: solo dev at startup,4,8,paxmlank,2024-04-15 18:44:02,https://www.reddit.com/r/dataengineering/comments/1c4tyb0/deciding_on_a_workflowstack_solo_dev_at_startup/,False,False,False,False
+1c4rzv2,Python ETL for Finance (Fund/ETF composition),4,3,N-C-M-M,2024-04-15 17:27:34,https://www.reddit.com/r/dataengineering/comments/1c4rzv2/python_etl_for_finance_fundetf_composition/,False,False,False,False
+1c4vdzt,How to generate dynamic jobs in Dagster?,2,0,BilledAndBankrupt,2024-04-15 19:40:18,https://www.reddit.com/r/dataengineering/comments/1c4vdzt/how_to_generate_dynamic_jobs_in_dagster/,False,False,False,False
+1c4vcod,Figuring out right practices for resolving dependencies,1,1,saadcarnot,2024-04-15 19:38:50,https://www.reddit.com/r/dataengineering/comments/1c4vcod/figuring_out_right_practices_for_resolving/,False,False,False,False
+1c4ozgx,For those who use dbt: How to build dbt tests that only run on prod deployments,1,1,Eagle-Neither,2024-04-15 15:25:44,https://www.reddit.com/r/dataengineering/comments/1c4ozgx/for_those_who_use_dbt_how_to_build_dbt_tests_that/,False,False,False,False
+1c44oz4,Quest to the Data Lakehouse (8-Bit Imaginary Gameplay Trailer),0,0,AMDataLake,2024-04-14 21:23:53,https://v.redd.it/bob4lkfiiiuc1,False,False,False,False

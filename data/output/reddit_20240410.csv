@@ -1,0 +1,41 @@
+id,title,score,num_comments,author,created_utc,url,over_18,edited,spoiler,stickied
+1c0qaxv,A year into building a data project,25,8,digitalghost-dev,2024-04-10 16:50:11,https://www.reddit.com/r/dataengineering/comments/1c0qaxv/a_year_into_building_a_data_project/,False,False,False,False
+1c0k5xk,Rant of a data professional,18,11,Benmagz,2024-04-10 12:17:55,https://www.reddit.com/r/dataengineering/comments/1c0k5xk/rant_of_a_data_professional/,False,False,False,False
+1c0gzxt,1 and a half years with no proper experience,17,7,Solid-Sloth,2024-04-10 08:56:15,https://www.reddit.com/r/dataengineering/comments/1c0gzxt/1_and_a_half_years_with_no_proper_experience/,False,False,False,False
+1c0gboa,Synapse notebooks don't run in parallel,14,18,drollerfoot7,2024-04-10 08:06:01,https://www.reddit.com/r/dataengineering/comments/1c0gboa/synapse_notebooks_dont_run_in_parallel/,False,False,False,False
+1c09xqn,Current analyst wanting to go into data engineering. Am I in a bad situation?,12,16,veganmeat,2024-04-10 01:56:44,https://www.reddit.com/r/dataengineering/comments/1c09xqn/current_analyst_wanting_to_go_into_data/,False,False,False,False
+1c0hdho,Programming with DuckDB vs Pandas,5,8,CharacterScience,2024-04-10 09:23:54,https://www.reddit.com/r/dataengineering/comments/1c0hdho/programming_with_duckdb_vs_pandas/,False,False,False,False
+1c09o99,Alternative for Cloud Function?,6,7,Koninhooz,2024-04-10 01:43:55,https://www.reddit.com/r/dataengineering/comments/1c09o99/alternative_for_cloud_function/,False,False,False,False
+1c094p3,Experimenting with Polars: Indexing Exploding Columns,6,2,EngiNerd9000,2024-04-10 01:17:58,https://www.reddit.com/r/dataengineering/comments/1c094p3/experimenting_with_polars_indexing_exploding/,False,False,False,False
+1c0o54t,a list of ai analytics tools,4,0,rickradewagen,2024-04-10 15:20:18,https://www.reddit.com/r/dataengineering/comments/1c0o54t/a_list_of_ai_analytics_tools/,False,False,False,False
+1c04znf,Ingesting Parquet Files into Redshift,4,7,ThatGrayZ,2024-04-09 22:16:12,https://www.reddit.com/r/dataengineering/comments/1c04znf/ingesting_parquet_files_into_redshift/,False,False,False,False
+1c0jvi4,snowflake ci/cd,4,2,87keicam,2024-04-10 12:02:46,https://www.reddit.com/r/dataengineering/comments/1c0jvi4/snowflake_cicd/,False,False,False,False
+1c09748,"Experience in programming, extracting, cleaning multi-TB datasets",3,1,UrbanCrusader24,2024-04-10 01:21:02,https://www.reddit.com/r/dataengineering/comments/1c09748/experience_in_programming_extracting_cleaning/,False,False,False,False
+1c0r1l9,Why Matillion with Snowflake?,4,4,avin_045,2024-04-10 17:20:28,https://www.reddit.com/r/dataengineering/comments/1c0r1l9/why_matillion_with_snowflake/,False,False,False,False
+1c0o4s2,Masking PII with Stateful Service Composition and Fluvio Streams,2,0,drc1728,2024-04-10 15:19:54,https://infinyon.com/blog/2024/04/mask-pii-stateful-streaming,False,False,False,False
+1c0kywe,using ansible to sync git repo on VM with remote host,3,5,johnsonfrusciante,2024-04-10 12:58:38,https://www.reddit.com/r/dataengineering/comments/1c0kywe/using_ansible_to_sync_git_repo_on_vm_with_remote/,False,False,False,False
+1c0k56s,Setting up a data model,3,2,ProfessionalReport99,2024-04-10 12:16:46,https://www.reddit.com/r/dataengineering/comments/1c0k56s/setting_up_a_data_model/,False,False,False,False
+1c0ascf,Looking for my first job..,3,4,Fraiz24,2024-04-10 02:37:10,https://www.reddit.com/r/dataengineering/comments/1c0ascf/looking_for_my_first_job/,False,False,False,False
+1c00toj,Best way to make my DB accessible to others in my org?,3,7,kaiso_gunkan,2024-04-09 19:27:35,https://www.reddit.com/r/dataengineering/comments/1c00toj/best_way_to_make_my_db_accessible_to_others_in_my/,False,False,False,False
+1c0n6pv,Python tool like pgdiff but for comparing the schemas of two Postgres tables,2,0,PrinceOfBeauty,2024-04-10 14:39:35,https://www.reddit.com/r/dataengineering/comments/1c0n6pv/python_tool_like_pgdiff_but_for_comparing_the/,False,False,False,False
+1c0lnss,How to organize many config files?,2,1,uselesstrashhh,2024-04-10 13:31:32,https://www.reddit.com/r/dataengineering/comments/1c0lnss/how_to_organize_many_config_files/,False,False,False,False
+1c0ioz8,Help me with my etl system,2,1,Ordinary_Run_2513,2024-04-10 10:52:59,https://www.reddit.com/r/dataengineering/comments/1c0ioz8/help_me_with_my_etl_system/,False,False,False,False
+1c0ca07,Need some help regarding data engineering projects...,2,1,LucaMarko,2024-04-10 03:53:05,https://www.reddit.com/r/dataengineering/comments/1c0ca07/need_some_help_regarding_data_engineering_projects/,False,False,False,False
+1c079r5,Suggestions or Past Experiences with Data Sharing Providers?,2,2,Single_Advisor8900,2024-04-09 23:52:35,https://www.reddit.com/r/dataengineering/comments/1c079r5/suggestions_or_past_experiences_with_data_sharing/,False,False,False,False
+1c014gb,Does it make sense to bolster metrics like `audit contributors` for open source projects?,2,2,DuckDatum,2024-04-09 19:40:19,https://www.reddit.com/r/dataengineering/comments/1c014gb/does_it_make_sense_to_bolster_metrics_like_audit/,False,False,False,False
+1c00fw8,Do you use Pandas professionally on a daily basis?,2,6,FaithlessnessNorth65,2024-04-09 19:11:39,https://www.reddit.com/r/dataengineering/comments/1c00fw8/do_you_use_pandas_professionally_on_a_daily_basis/,False,False,False,False
+1c0tanl,Building a Data Lakehouse in BigQuery - best practices?,2,0,PuddingGryphon,2024-04-10 18:52:56,https://www.reddit.com/r/dataengineering/comments/1c0tanl/building_a_data_lakehouse_in_bigquery_best/,False,False,False,False
+1c0t712,Assessment,1,0,ZephyrGlimmer,2024-04-10 18:48:48,https://www.reddit.com/r/dataengineering/comments/1c0t712/assessment/,False,False,False,False
+1c0syna,Efficient data model,1,0,laterunner-3,2024-04-10 18:39:15,https://www.reddit.com/r/dataengineering/comments/1c0syna/efficient_data_model/,False,False,False,False
+1c0sikz,Path to SQL Developer,1,0,xYoKx,2024-04-10 18:21:14,https://www.reddit.com/r/dataengineering/comments/1c0sikz/path_to_sql_developer/,False,False,False,False
+1c0qhrc,Task Monitoring in snowflake ,1,0,New_Mechanic_9502,2024-04-10 16:57:56,https://www.reddit.com/r/dataengineering/comments/1c0qhrc/task_monitoring_in_snowflake/,False,False,False,False
+1c0qg7p,Using Streamlit (via Snowflake) as a data ingestion and update tool (versus Sigma BI tool),1,3,MasterKluch,2024-04-10 16:56:06,https://www.reddit.com/r/dataengineering/comments/1c0qg7p/using_streamlit_via_snowflake_as_a_data_ingestion/,False,False,False,False
+1c0ofix,Best practice to develop derived attributes in DWH? Aggregated Facts as Dimension Attributes - Dimensional Modeling,1,2,Kindly-Screen-2557,2024-04-10 15:32:14,https://www.reddit.com/r/dataengineering/comments/1c0ofix/best_practice_to_develop_derived_attributes_in/,False,False,False,False
+1c0j83e,Taps & Targets: Simplify ETL Through Singer's Data Pipeline Blueprint,2,1,ivanovyordan,2024-04-10 11:25:33,https://datagibberish.com/p/singer-101?r=odlo3,False,False,False,False
+1c0ffed,Schema / DB Complexity Metrics,1,0,schubidubidubid,2024-04-10 07:02:50,https://www.reddit.com/r/dataengineering/comments/1c0ffed/schema_db_complexity_metrics/,False,False,False,False
+1c06ha0,DBT Postgres to BigQuery,1,10,solely_magnus,2024-04-09 23:17:53,https://www.reddit.com/r/dataengineering/comments/1c06ha0/dbt_postgres_to_bigquery/,False,False,False,False
+1c04yhs,CDMP new Platform,1,0,BlunderbusDriver,2024-04-09 22:14:58,https://www.reddit.com/r/dataengineering/comments/1c04yhs/cdmp_new_platform/,False,False,False,False
+1c03hmy,Databricks - Lakehouse & Delta Live Tables Guidance,1,0,DisastrousCase3062,2024-04-09 21:16:03,https://www.reddit.com/r/dataengineering/comments/1c03hmy/databricks_lakehouse_delta_live_tables_guidance/,False,False,False,False
+1c00m4w,Advice on data architecture and execution,1,2,National-Dare-4890,2024-04-09 19:18:54,https://i.redd.it/ebl443so7itc1.jpeg,False,False,False,False
+1c0q4gu,Consider : Which BI tool features are most crucial for your business needs?,0,1,macxima,2024-04-10 16:42:53,https://www.reddit.com/r/dataengineering/comments/1c0q4gu/consider_which_bi_tool_features_are_most_crucial/,False,False,False,False
+1c0otb3,Coinbase,0,0,No_Cat_8466,2024-04-10 15:48:28,https://www.reddit.com/r/dataengineering/comments/1c0otb3/coinbase/,False,False,False,False
