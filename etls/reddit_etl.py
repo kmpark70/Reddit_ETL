@@ -18,21 +18,25 @@ def connect_reddit(client_id, client_secret, user_agent) -> Reddit:
     except Exception as e:
         print(e)
         sys.exit(1)
-        
 
-def extract_posts(reddit_instance: Reddit, subreddit: str, time_filter: str, limit=None):
+def extract_posts(reddit_instance: Reddit, subreddit: str, time_filter: str, keywords, limit=None):
     subreddit = reddit_instance.subreddit(subreddit)
-    posts = subreddit.top(time_filter=time_filter, limit=limit)
+    posts = subreddit.new(limit=limit)
 
     post_lists = []
-    
-    ## Completed Version
+    keywords_lower = [keyword.lower() for keyword in keywords]  # Convert keywords to lower case for case insensitive matching
+
     for post in posts:
-        post_dict = vars(post)
-        post = {key: post_dict[key] for key in POST_FIELDS}
-        post_lists.append(post)
+        title = post.title.lower()
+        selftext = post.selftext.lower()
+        # Check if any keyword is in the post's title or selftext
+        if any(keyword in title or keyword in selftext for keyword in keywords_lower):
+            post_dict = vars(post)
+            post = {key: post_dict[key] for key in POST_FIELDS if key in post_dict}
+            post_lists.append(post)
 
     return post_lists
+    
 
 def transform_data(post_df: pd.DataFrame):
     post_df['created_utc'] = pd.to_datetime(post_df['created_utc'], unit='s')

@@ -23,7 +23,7 @@ dag = DAG(
     default_args=default_args,
     schedule_interval='@daily',
     catchup=False,
-    tags=['reddit', 'etl', 'pipeline']
+    tags=['reddit','etl', 'pipeline']
 )
 # extraction from reddit
 extract = PythonOperator(
@@ -33,6 +33,7 @@ extract = PythonOperator(
         'file_name': f'reddit_{file_postfix}', 
         'subreddit': 'dataengineering',
         'time_filter': 'day',
+        'keywords': ['sql','snowflake'],  # Add the keywords you want to filter by
         'limit': 100
     },
     dag=dag
